@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+.collapse a{
+    text-decoration:none;
+    color:white;
+}
+
+.bg-pepe{
+    height: 20px;
+    width:50px;
+    background-color: rgb(156, 80, 228);
+    margin-left:220px;
+    margin-top:10px;
+}
+.bg-pepe a{
+    color:white;
+    font-size: 0.8rem;
+}
+.btn-link{
+    color:black;
+    font-size: 1rem;
+    margin-left: 80px;
+}
+.btn-outline-warning{
+width:230px;
+}
+.svgss{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bi-heart{
+    color:crimson;
+}
+.card{
+    margin-top: 50px;
+    margin-right: 40px;
+    border-radius: 2%;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+
+}
+.card:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.05); 
+    transition:  0.3s;
+}
+.card:hover{
+    -webkit-box-shadow: 4px -8px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px -8px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px -8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.scattering {
+    width: 80px;
+    height: 80px;
+    margin-left: 220px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: url(http://zornet.ru/ABVUN/Aba/detunis/supasnab/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: fave-heart 1s steps(28);
+  }
+  .scattering:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+  }
+  @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }
+  
+  
+  
